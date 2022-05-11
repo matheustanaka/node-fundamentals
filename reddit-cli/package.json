@@ -7,9 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "reddit": "./reddit.mjs"  
+    "reddit": "./reddit.mjs"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^3.2.4",
+    "open": "^8.4.0",
+    "yargs": "^17.5.0"
+  }
 }
